@@ -1,0 +1,49 @@
+body {
+  margin: 0px auto;
+  font-family: Fira Sans, Arial, sans-serif;
+  color: #141414;
+  max-width: 1200px;
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+};
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    max-width: initial !important;
+    text-transform: capitalize;
+  }
+}
